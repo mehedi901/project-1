@@ -1,0 +1,55 @@
+nav{
+    text-align: center;
+    background-color: black;
+}
+
+nav > ul {
+    display: flex; 
+}
+nav li{
+    list-style: none;
+    margin-right: 20px; 
+    padding: 5px;
+}
+nav li:hover{
+    background-color:rgba(224, 228, 255, 0.512);
+}
+nav li  a{
+    text-decoration: none;
+    color: rgba(170, 255, 0, 0.845);
+}
+h1{
+    text-align: left;
+    color: rgba(0, 157, 255, 0.813);
+  
+}
+.pindex{
+    margin-top: 300px;
+    padding-left: 20px;
+    color: aquamarine;
+    width: 50%;
+}
+.luffy{
+    text-align: center;
+    background-image: url();
+}
+.hluffy{
+    text-align: center;
+}
+.kingb{
+    margin: 10px;
+    padding: 10px 28px;
+    font: 2em sans-serif;
+    background-color: rgb(30, 219, 216);
+    border-radius: 10px;
+    box-shadow: 100px;
+    border: none;
+}
+.kingb>a{
+    margin: 10px ;
+    text-decoration: none;
+    color:rgb(0, 119, 255);
+}
+.kingb:hover{
+    background-color: black;
+}
