@@ -1,6 +1,10 @@
+
 nav{
-    text-align: center;
-    background-color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+   
 }
 
 nav > ul {
@@ -19,21 +23,23 @@ nav li  a{
     color: rgba(170, 255, 0, 0.845);
 }
 h1{
-    text-align: left;
-    color: rgba(0, 157, 255, 0.813);
-  
+    padding-left:20px;
+    font-size:30px;
+ color: azure;
 }
 .pindex{
-    margin-top: 300px;
+    margin-top: 10%;
     padding-left: 20px;
     color: aquamarine;
     width: 50%;
 }
 .luffy{
     text-align: center;
-    background-image: url();
+   
 }
 .hluffy{
+    text-align: left;
+    color: rgba(0, 157, 255, 0.813);
     text-align: center;
 }
 .kingb{
@@ -51,5 +57,15 @@ h1{
     color:rgb(0, 119, 255);
 }
 .kingb:hover{
-    background-color: black;
+    color: rgb(14, 231, 144);
+   
+}
+.title-header{
+    color: brown;
+    font-size: 50px;
+    font-weight:800 ;
+    
+}
+.index-header{
+   
 }
